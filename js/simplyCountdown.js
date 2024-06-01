@@ -118,7 +118,7 @@
                 year: 2024,
                 month: 6,
                 day: 29,
-                hours: 0,
+                hours: 9,
                 minutes: 0,
                 seconds: 0,
                 words: {
@@ -155,7 +155,7 @@
 
         targetTmpDate = new Date(
             parameters.year,
-            parameters.month - 1,
+            parameters.month -1,
             parameters.day,
             parameters.hours,
             parameters.minutes,

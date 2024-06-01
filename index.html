@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Wedding &mdash; Iqbal & Riris</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -65,10 +65,10 @@
 	<![endif]-->
 
 	</head>
-	<body>
-	
+	<body >
 	<div class="fh5co-loader"></div>
-	  
+	
+	<!-- <iframe style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/s6H6ffS6zJI?si=WIDtDvXQY_f3_Clj&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -106,7 +106,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg_iqbal.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -115,8 +115,34 @@
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Iqbal &amp; Riris</h1>
 							<h2>We Are Getting Married</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<!-- <div id="countdown"></div> -->
+							<div id="countdown">
+								<div class="countdown-item" id="days"></div>
+								<div class="countdown-item" id="hours"></div>
+								<div class="countdown-item" id="minutes"></div>
+								<div class="countdown-item" id="seconds"></div>
+		
+							  </div>
+							  <audio id="myAudio" controls style="display: none;">
+								<source src="Batas Senja - Nanti Kita Seperti Ini.mp3" type="audio/mp3">
+								Your browser does not support HTML5 audio.
+							  </audio>
+								<!-- <p><a href="gallery.html" class="btn btn-default btn-sm">Save the date</a></p> -->
+							  
+							  <button class="btn btn-default btn-sm" onclick="window.location.href='#fh5co-couple'">Buka Undangan</button>
+							  
+							  <script>
+							  document.addEventListener("DOMContentLoaded", function() {
+								var audio = document.getElementById("myAudio");
+								var btn = document.querySelector(".btn");
+							  
+								// Event listener untuk klik tombol
+								btn.addEventListener("click", function() {
+								  // Memulai pemutaran audio
+								  audio.play();
+								});
+							  });
+							  </script>
 						</div>
 					</div>
 				</div>
@@ -126,44 +152,41 @@
 
 	<div id="fh5co-couple">
 		<div class="container">
-			<audio autoplay>
-				<source src="/Users/sayyidimakhdum/Downloads/wedding-master/Batas Senja - Nanti Kita Seperti Ini.mp3" type="audio/mpeg">
-				<!-- <source src="musik.ogg" type="audio/ogg"> -->
-				Browser kamu tidak mendukung tag audio ini.
-			  </audio>
+			  
+			
 			  
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>Juni 29th, 2024 Surabaya, INDONESIA</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h2>Assalamualaikum Wr. Wb</h2>
+					<h3>Juni 29th, 2024 <br> Kec.Sepulu, Kab. Bangkalan</h3>
+					<p>Maha Suci Alloh SWT yang telah menciptakan makhluknya, berpasang-pasangan, Ya Alloh perkenankan kami menikahkan putra-putri kami</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+						<img src="images/foto-iqbal.png" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Iqbal Al-Qifari</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>Putra ke-3 dari Bapak Toridin & Ibu Misliati</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="images/foto-riris.png" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>RiriS</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<h3>Riskiyatul Muawwenah</h3>
+						<p>Putri ke-1 dari Bapak Jawi & Ibu Syamsiyah</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_33.jpeg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -181,15 +204,15 @@
 									<h3>Akad Nikah</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+										<span>09:00 WIB</span>
+										<!-- <span>6:00 PM</span> -->
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Jumat 28</span>
+										<span>Juni, 2024</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Bertempat di Kediaman Mempelai Wanita Kampung Sabungan, Desa Banyior, Kec. Sepulu, Kab. Bangkalan</p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -197,15 +220,18 @@
 									<h3>Resepsi</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
+										<span>12:30 WIB</span>
+										<!-- <span>12:00 AM</span> -->
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Sabtu 29</span>
+										<span>Juni, 2024</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span>Pengisi Acara:</span>
+									<span>Pengajian K.H Fairus Fahmi Jawahir</span>
+									<br>
+									<p>Bertempat di Kediaman Mempelai Wanita Kampung Sabungan, Desa Banyior, Kec. Sepulu, Kab. Bangkalan</p>
 								</div>
 							</div>
 						</div>
@@ -215,147 +241,86 @@
 		</div>
 	</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
+	<div id="fh5co-gallery" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Memories</span>
 					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-						<a href="images/gallery-1.jpg">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpeg); "> 
+						<a href="images/gallery-1.jpeg">
 							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
+								<!-- <span>14 Photos</span>
+								<h2>Two Glas of Juice</h2> -->
 							</div>
 						</a>
 					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpeg); ">
+						<a href="images/gallery-2.jpeg" class="color-2">
 							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
+								<!-- <span>30 Photos</span>
+								<h2>Timer starts now!</h2> -->
 							</div>
 						</a>
 					</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpeg); ">
+						<a href="images/gallery-3.jpeg" class="color-3">
+							<div class="case-studies-summary">
+								<!-- <span>90 Photos</span>
+								<h2>Beautiful sunset</h2> -->
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpeg); ">
+						<a href="images/gallery-4.jpeg" class="color-4">
+							<div class="case-studies-summary">
+								<!-- <span>12 Photos</span>
+								<h2>Company's Conference Room</h2> -->
+							</div>
+						</a>
+					</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpeg); ">
+							<a href="images/gallery-5.jpeg" class="color-3">
 								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
+									<!-- <span>50 Photos</span>
+									<h2>Useful baskets</h2> -->
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpeg); ">
+							<a href="images/gallery-6.jpeg" class="color-4">
 								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
+									<!-- <span>45 Photos</span>
+									<h2>Skater man in the road</h2> -->
 								</div>
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpeg); ">
+							<a href="images/gallery-7.jpeg" class="color-4">
 								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
+									<!-- <span>35 Photos</span>
+									<h2>Two Glas of Juice</h2> -->
 								</div>
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-							<a href="#" class="color-5">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpeg); "> 
+							<a href="images/gallery-8.jpeg" class="color-5">
 								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
+									<!-- <span>90 Photos</span>
+									<h2>Timer starts now!</h2> -->
 								</div>
 							</a>
 						</li>
@@ -472,13 +437,13 @@
 		</div>
 	</div> -->
 
-	<div id="fh5co-services" class="fh5co-section-gray" style="background-color: white;">
+	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Pre Wedding Videos</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<!-- <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p> -->
 				</div>
 			</div>
 
@@ -518,7 +483,7 @@
 
 				<div class="col-md-12 animate-box text-center">
 					<div class="fh5co-video fh5co-bg">
-						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/s6H6ffS6zJI?autoplay=1&loop=1&controls=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/s6H6ffS6zJI?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
 						<div class="overlay"></div>
 					</div>
 				</div>
@@ -536,15 +501,16 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Kado Digital</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<!-- <p>Please Fill-up the form to notify you that you're attending. Thanks.</p> -->
 					<img src="bca-logo.jpeg" alt="" width="50%">
+					<p style="font-size: 25px; color: #ffffff;">1851608856 IQBAL ALQIFARI</p>
 				</div>
 			</div>
 			
 		</div>
 	</div>
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0050333611625!2d112.72096527534386!3d-7.125412069881395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd803829c499f6d%3A0xafd1bff9bddb6241!2sJotoast%20Cafe!5e0!3m2!1sen!2sid!4v1711640301123!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d12718.199993078628!2d112.9564405981231!3d-6.903212642097001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTQnMTguMCJTIDExMsKwNTgnMDcuNSJF!5e0!3m2!1sen!2sid!4v1717165889817!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<footer  role="contentinfo">
 		<div class="container s">
 
@@ -566,6 +532,32 @@
 			</div>
 
 		</div>
+		<script>
+			// Tanggal akhir untuk countdown
+			var countDownDate = new Date("Jun 29, 2024 12:30:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  document.getElementById("days").innerHTML = days + "h";
+  document.getElementById("hours").innerHTML = hours + "j";
+  document.getElementById("minutes").innerHTML = minutes + "m";
+  document.getElementById("seconds").innerHTML = seconds + "d";
+  
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("days").innerHTML = 0 + "h";
+  document.getElementById("hours").innerHTML = 0 + "j";
+  document.getElementById("minutes").innerHTML = 0 + "m";
+  document.getElementById("seconds").innerHTML = 0 + "d";
+  }
+}, 1000);
+			</script>
+			<div id="countdown"></div>
 	</footer>
 	</div>
 
@@ -596,6 +588,7 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/audioload.js"></script>
 
 	<script>
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
