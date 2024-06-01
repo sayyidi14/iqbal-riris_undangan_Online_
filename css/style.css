@@ -853,7 +853,11 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 50px;
+  }
+  #countdown .countdown-item{
+    height: 50px;
+    width: 50px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -863,15 +867,11 @@ form label {
   line-height: 1.5;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 80px;
-  }
-  .countdown-item{
-    width: 60px;
-    height: 60px;
+    font-size: 16px;
   }
 }
 #fh5co-header .display-tc .btn,
